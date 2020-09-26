@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    background-color: #364f6b;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+a {
+    margin-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #fc5185;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border-width: 5px 0 0 0;
+    border-style: dotted;
+    width: 30px;
+    color: #fc5185;
+}
+
+.header {
+    margin-bottom: 75px;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 50px 0;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 30px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.info {
+    margin: 75px auto;
+}
+
+.about {
+    display: inline-block;
+    width: 75%;
+    margin: 0 auto 75px auto;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+.skills {
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto 75px auto;
+}
+
+.skill {
+    text-align: left;
+    margin: auto;
+    margin: 50px 0;
+}
+
+.code-img {
+    float: left;
+    margin: 15px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.other-img {
+    float: right;
+    margin: 15px;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width: 768px) {
+    .skill {
+        text-align: center;
+        margin: auto;
+        margin: 50px 0;
+    }
+
+    .code-img {
+        float: none;
+        margin: 15px;
+        height: 10rem;
+        width: 10rem;
+        border-radius: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .other-img {
+        float: none;
+        margin: 15px;
+        height: 10rem;
+        width: 10rem;
+        border-radius: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+.experience {
+    display: inline-block;
+    width: 70%;
+}
+
+.work {
+    margin: 50px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.work-img {
+    float: left;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 10%;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.contact {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.contact-img {
+    margin-top: 40px;
+    height: 4rem;
+    width: 4rem;
+}
+
+.footer {
+    background-color: #fc5185;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.link {
+    color: #364f6b;
+    padding: 0 40px;
+}
